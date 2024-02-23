@@ -260,9 +260,9 @@
       bindings = <
         &ppipe          &pkp_n1             &lkp_n2             &lkp_n3         &lkp_n4       &akp_n5        &tog DH_BASE_QWERTY                                                                  &mo MOD         &ekp_n6           &rkp_n7               &rkp_n8               &rkp_n9       &skp_n0     &eprcnt
         &kp TAB         &kp Q               &kp W               &kp E           &kp R         &kp T          &none                                                                                &none           &kp Y             &kp U                 &kp I                 &kp O         &kp P       &bhash
-        &kp ESC         &kp A               &kp S               &kp D           &kp F         &kp G          &none                        &kp LCTRL  &kp LGUI  &kp LGUI  &kp RCTRL                 &none           &kp H             &kp J                 &kp K                 &kp L         &kp SEMI    &kp MINUS
-        &kp LSHFT       &kp Z               &kp X               &kp C           &kp V         &kp B                                                  &kp HOME  &kp END                                           &kp N             &kp M                 &kp COMMA             &kp DOT       &kp FSLH    &kp RSHFT
-        &mo FN          &dgrave             &ggrave             &aposleft       &altright                                       &bspc_del &kp DEL    &kp LALT  &kp RALT &kp ENTER &kp SPACE                                         &kp UP                &kp DOWN              &kp APOS      &acaret     &mo FN
+        &kp ESC         &kp A               &kp S               &kp D           &kp F         &kp G          &none                       &kp LCTRL  &kp LGUI  &kp LGUI  &kp RCTRL                 &none           &kp H             &kp J                 &kp K                 &kp L         &kp SEMI    &kp MINUS
+        &kp LSHFT       &kp Z               &kp X               &kp C           &kp V         &kp B                                                  &kp LALT  &kp RALT                                           &kp N             &kp M                 &kp COMMA             &kp DOT       &kp FSLH    &kp RSHFT
+        &mo FN          &dgrave             &kp GRAVE           &kp LEFT        &altright                                       &bspc_del &kp DEL    &kp HOME  &kp END &kp ENTER &kp SPACE                                         &kp DOWN                &kp UP              &kp APOS      &acaret     &mo FN
       >;
     };
 
@@ -278,11 +278,11 @@
 
     fn {
       bindings = <
-        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog DEFAULT                                           &mo DEFAULT &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
+        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6  &tog DEFAULT                                    &mo DEFAULT  &kp F7  &kp F8                  &kp F9                  &kp F10                 &kp F11 &kp F12
+        &trans &trans &trans &trans &trans &trans  &none                                           &none        &trans  &trans                  &trans                  &trans                  &trans  &trans
+        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none        &trans  &kp LG(LS(LA(F1)))      &kp LG(LS(LA(F2)))      &kp LG(LS(LA(F3)))      &trans  &trans
+        &trans &trans &trans &trans &trans &trans                      &trans &trans                            &trans  &trans                  &trans                  &trans                  &trans  &trans
+        &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans                      &trans                  &trans                  &trans                  &trans  &trans
       >;
     };
 

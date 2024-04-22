@@ -4,14 +4,6 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
-/* #define DEFAULT 0 */
-/* #define DH_BASE_QWERTY 1 */
-/* #define DH_BASE_DVORAK 2 */
-/* #define FN 3 */
-/* #define MOD 4 */
-/* #define DH_MOD_A 5 */
-/* #define DH_MOD_B 6 */
-
 #define DEFAULT 0
 #define DH_BASE_QWERTY 1
 #define FN 2
@@ -269,8 +261,8 @@
         &ppipe          &pkp_n1             &lkp_n2             &lkp_n3         &lkp_n4       &akp_n5        &tog DH_BASE_QWERTY                                                                  &mo MOD         &ekp_n6           &rkp_n7               &rkp_n8               &rkp_n9       &skp_n0     &eprcnt
         &kp TAB         &kp Q               &kp W               &kp E           &kp R         &kp T          &none                                                                                &none           &kp Y             &kp U                 &kp I                 &kp O         &kp P       &bhash
         &kp ESC         &kp A               &kp S               &kp D           &kp F         &kp G          &none                       &kp LCTRL  &kp LGUI  &kp LGUI  &kp RCTRL                 &none           &kp H             &kp J                 &kp K                 &kp L         &kp SEMI    &kp MINUS
-        &kp LSHFT       &kp Z               &kp X               &kp C           &kp V         &kp B                                                 &kp LALT  &kp RALT                                           &kp N             &kp M                 &kp COMMA             &kp DOT       &kp FSLH    &kp RSHFT
-        &mo FN          &dgrave             &kp GRAVE           &kp LEFT        &altright                                       &bspc_del &kp DEL   &kp HOME  &kp END   &kp ENTER &tabspc                                         &kp DOWN                &kp UP              &kp APOS      &acaret     &mo FN
+        &kp LSHFT       &kp Z               &kp X               &kp C           &kp V         &kp B                                                 &kp LALT  &kp RALT                                            &kp N             &kp M                 &kp COMMA             &kp DOT       &kp FSLH    &kp RSHFT
+        &mo FN          &dgrave             &kp GRAVE           &kp LEFT        &kp RIGHT                                       &bspc_del &kp DEL   &kp HOME  &kp END   &kp ENTER &tabspc                                           &kp DOWN                &kp UP              &kp APOS      &acaret     &mo FN
       >;
     };
 
